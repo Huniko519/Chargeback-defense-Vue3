@@ -21,7 +21,7 @@ const axios = require('axios').default;
 const warpliteurl = 'https://api.chargebackdefense.com/v2/';
 //const warpliteurl = 'https://cbd.warplite.com/api-v1/';
 // todo we should maybe have this in a .env or dynamically generated somehow. Right now it's just a hard coded super admin auth token with no expiration
-let baseT = 'dVFKY2RpVVRlY0k0Q1JqOk15aUZRVUVMRlgyRWk1SnAxZGdESmJpMkQ='
+let baseT = ''
 app.use(cors())
 app.use(bodyParser.json({limit: '50mb'})) // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ // to support URL-encoded bodies
